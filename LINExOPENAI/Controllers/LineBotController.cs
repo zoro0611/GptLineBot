@@ -47,17 +47,37 @@ namespace LINExOPENAI.Controllers
 
                 foreach (var ev in events)
                 {
-                    if (ev.Type.ToUpper() == LineEventType.Message.ToString().ToUpper() && ev.Message.Type.ToUpper() == MessageType.Text.ToString().ToUpper())
+                    if (ev.Type.ToUpper() == LineEventType.Message.ToString().ToUpper())
                     {
-                        string textMessage = ev.Message.Text;
-                        CustomerRequestModel req = new CustomerRequestModel()
+                        switch (ev.Message.Type.ToUpper())
                         {
-                            Message = textMessage
-                        };
-                        response = await _adProduct.GenerateAdContent(req);
-                        replytoken = ev.ReplyToken;
-                        var replyMessage = new TextMessage(response.ADContent.First().Trim());
-                        await bot.Reply(ev.ReplyToken, replyMessage);
+                            case "TEXT":
+                                string textMessage = ev.Message.Text;
+                                CustomerRequestModel req = new CustomerRequestModel()
+                                {
+                                    Message = textMessage
+                                };
+                                response = await _adProduct.GenerateAdContent(req);
+                                replytoken = ev.ReplyToken;
+                                var replyMessage = new TextMessage(response.ADContent.First().Trim());
+                                await bot.Reply(replytoken, replyMessage);
+                                break;
+                            case "STICKER":
+                                string stickerId = "52002738"; // 貼圖 ID
+                                string packageId = "11537"; // 貼圖套件 ID
+                                //string stickerId = ev.Message.StickerId;
+                                //string packageId = ev.Message.PackageId;
+                                var stickerMessage = new StickerMessage(packageId, stickerId);
+                                replytoken = ev.ReplyToken;
+                                await bot.Reply(replytoken, stickerMessage);
+                                break;
+
+                            default:
+                                break;
+                        }
+
+
+                        
 
                     }
                 }
