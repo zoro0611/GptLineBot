@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI\\LINExOPENAI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI.ApplicationService\\LINExOPENAI.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI.ApplicationService\\LINExOPENAI.ApplicationService.csproj",
+        "projectName": "LINExOPENAI.ApplicationService",
+        "projectPath": "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI.ApplicationService\\LINExOPENAI.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\Leo_Hsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leo_Hsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/InnoEC2/EC2Package/_packaging/EC2/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI.Infrastructure\\LINExOPENAI.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI.Infrastructure\\LINExOPENAI.Infrastructure.csproj",
+        "projectName": "LINExOPENAI.Infrastructure",
+        "projectPath": "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI.Infrastructure\\LINExOPENAI.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Leo_Hsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leo_Hsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/InnoEC2/EC2Package/_packaging/EC2/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI.ApplicationService\\LINExOPENAI.ApplicationService.csproj": {
+                "projectPath": "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI.ApplicationService\\LINExOPENAI.ApplicationService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI\\LINExOPENAI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI\\LINExOPENAI.csproj",
+        "projectName": "LINExOPENAI",
+        "projectPath": "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI\\LINExOPENAI.csproj",
+        "packagesPath": "C:\\Users\\Leo_Hsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leo_Hsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/InnoEC2/EC2Package/_packaging/EC2/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI.ApplicationService\\LINExOPENAI.ApplicationService.csproj": {
+                "projectPath": "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI.ApplicationService\\LINExOPENAI.ApplicationService.csproj"
+              },
+              "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI.Infrastructure\\LINExOPENAI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Leo_Hsu\\Desktop\\LEO\\個人Github Repos\\GptLineBot\\LINExOPENAI.Infrastructure\\LINExOPENAI.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Line.Bot.SDK": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
